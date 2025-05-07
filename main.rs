@@ -80,4 +80,4 @@ fn main() {
     loop {
         thread::sleep(Duration::from_secs(1));
     }
-}
+}export OPENSSL_ROOT_DIR=$(brew --prefix openssl)
